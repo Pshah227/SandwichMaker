@@ -153,6 +153,7 @@ while open:
                 print("thats a big sandwich")
             if possible == False:
                 print("sorry that's not enough money")
+                print("what should we add")
                 print("Have a good day")
     if order == "report":
 
