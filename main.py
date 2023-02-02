@@ -151,6 +151,7 @@ while open:
                 print("Your large sandwich is ready")
             if possible == False:
                 print("sorry that's not enough money")
+                print("Have a good day")
     if order == "report":
 
         if order == "off":
