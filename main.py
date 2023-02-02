@@ -156,6 +156,7 @@ while open:
                 print("what should we add")
                 print("Have a good day")
     if order == "report":
+        print("Ok boss")
 
         if order == "off":
             open = False
