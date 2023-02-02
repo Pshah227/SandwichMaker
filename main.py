@@ -119,7 +119,7 @@ while open:
             if possible:
                 sandwichMachine.make_sandwich("small", recipes["small"]["ingredients"])
                 print("Your change is", payment-cost)
-                print("Your small sandwich is ready")
+                print("Your small sandwich is ready. are you sure you don't want more")
             if possible == False:
                 print("sorry that's not enough money")
     if order == "medium":
@@ -133,7 +133,8 @@ while open:
             if possible:
                 sandwichMachine.make_sandwich("medium", recipes["medium"]["ingredients"])
                 print("Your change is", payment-cost)
-                print("Your medium sandwich is ready")
+                print("Your medium sandwich is ready.")
+                print("Right size")
             if possible == False:
                 print("sorry that's not enough money")
 
