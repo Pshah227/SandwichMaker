@@ -150,6 +150,7 @@ while open:
                 sandwichMachine.make_sandwich("large", recipes["large"]["ingredients"])
                 print("Your change is", payment-cost)
                 print("Your large sandwich is ready")
+                print("thats a big sandwich")
             if possible == False:
                 print("sorry that's not enough money")
                 print("Have a good day")
