@@ -152,11 +152,9 @@ while open:
             if possible == False:
                 print("sorry that's not enough money")
     if order == "report":
-        print("bread ", sandwichMachine.machine_resources["bread"], "slices")
-        print("cheese ", sandwichMachine.machine_resources["cheese"], "slices")
-        print("ham ", sandwichMachine.machine_resources["ham"], "lbs")
-    if order == "off":
-        open = False
+
+        if order == "off":
+            open = False
 
 
 
